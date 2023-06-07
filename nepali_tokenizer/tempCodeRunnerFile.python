@@ -1,0 +1,14 @@
+import sys
+import gzip
+import os
+import shutil
+import re
+from collections import Counter
+
+a = "स्म"
+print(a[:-2])
+s = ["कमभा", "इन्खया", "उना", "भ्रम्म", "टाठा"]
+for i in s:
+    j = i
+    i = i[:-1]
+    print(s[s.index(j)])
